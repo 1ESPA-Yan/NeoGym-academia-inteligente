@@ -28,7 +28,7 @@
   position: relative;
 }
 
-/* Banner */
+/* BANNER */
 .banner {
   background: transparent;
   text-align: center;
@@ -104,7 +104,7 @@
   box-shadow: 0 0 20px rgba(0, 255, 102, 0.3);
 }
 
-/* Informações */
+/* INFORMAÇÕES */
 .info {
   background-color: transparent;
   padding: 4rem 2rem;
@@ -163,7 +163,7 @@
   line-height: 1.5;
 }
 
-/* Planos destaque */
+/* PLANOS DESTAQUES */
 .planos-destaque {
   padding: 4rem 2rem;
   text-align: center;
@@ -274,4 +274,169 @@ footer, section:last-child h6 {
   border-top: 1px solid rgba(0, 255, 100, 0.1);
   color: #fff;
   font-size: 0.85rem;
+}
+
+/* SOBRE */
+.sobre-container {
+  color: #fff;
+}
+
+.sobre-hero {
+  text-align: center;
+  padding: 5rem 2rem 3rem;
+}
+
+.sobre-hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sobre-hero h1 span {
+  color: #00ff66;
+}
+
+.sobre-hero p {
+  color: #aaa;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.sobre-content {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 3rem 5rem;
+}
+
+.sobre-card {
+  background: linear-gradient(135deg, rgba(0,40,20,0.6), rgba(0,60,30,0.3));
+  border: 1px solid rgba(0, 255, 100, 0.12);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 320px;
+  flex: 1;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.sobre-card:hover {
+  border-color: rgba(0, 255, 100, 0.4);
+  transform: translateY(-4px);
+}
+
+.sobre-card h2 {
+  color: #00ff66;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.sobre-card p {
+  color: #ccc;
+  line-height: 1.7;
+}
+
+/* PLANOS */
+.planos-container {
+  color: #fff;
+}
+
+.planos-hero {
+  text-align: center;
+  padding: 5rem 2rem 3rem;
+}
+
+.planos-hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.planos-hero h1 span {
+  color: #00ff66;
+}
+
+.planos-hero p {
+  color: #aaa;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.planos-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 3rem 5rem;
+}
+
+.plano-item {
+  background: linear-gradient(135deg, rgba(0,40,20,0.6), rgba(0,60,30,0.3));
+  border: 1px solid rgba(0, 255, 100, 0.12);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 280px;
+  flex: 1;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.3s, transform 0.3s;
+  position: relative;
+}
+
+.plano-item:hover {
+  border-color: rgba(0, 255, 100, 0.4);
+  transform: translateY(-5px);
+}
+
+.plano-item.destaque {
+  border-color: #00ff66;
+  box-shadow: 0 0 25px rgba(0, 255, 102, 0.15);
+}
+
+.badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00ff66;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.plano-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.plano-preco {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #00ff66;
+  margin-bottom: 1.5rem;
+}
+
+.plano-preco span {
+  font-size: 1rem;
+  color: #aaa;
+  font-weight: 400;
+}
+
+.plano-item ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.plano-item ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 255, 100, 0.08);
+  color: #ccc;
+  font-size: 0.95rem;
 }
