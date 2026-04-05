@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Home from './routes/Home'
 import Sobre from "./routes/Sobre";
 import Planos from "./routes/Planos";
+import CalculadoraImc from "./routes/CalculadoraImc";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/planos" element={<Planos />} />
+        <Route path="/calculadora" element={<CalculadoraImc />} />
       </Routes>
       <Footer />
     </BrowserRouter>
