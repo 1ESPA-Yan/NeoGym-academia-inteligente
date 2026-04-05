@@ -7,6 +7,7 @@ import Sobre from "./routes/Sobre";
 import Planos from "./routes/Planos";
 import CalculadoraImc from "./routes/CalculadoraImc";
 import Contato from './routes/Contato';
+import Error from './routes/Error';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/planos" element={<Planos />} />
         <Route path="/calculadora" element={<CalculadoraImc />} />
         <Route path="/contato" element={<Contato/>} />
+        <Route path="*" element={<Error/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -672,3 +672,45 @@ footer, section:last-child h6 {
   font-size: 1rem;
   margin-bottom: 1.5rem;
 }
+/* ERRO 404 */
+.error-container {
+  color: #fff;
+  text-align: center;
+  padding: 8rem 2rem;
+}
+
+.error-container h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  color: #00ff66;
+  line-height: 1;
+}
+
+.error-container h2 {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.error-container p {
+  color: #aaa;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.error-container a {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border: 2px solid #00ff66;
+  color: #00ff66;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.error-container a:hover {
+  background: #00ff66;
+  color: #000;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.3);
+}
