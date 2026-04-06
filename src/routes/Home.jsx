@@ -32,7 +32,7 @@ const Home = () => {
         <div className="planos-cards">
           <div className="plano-card">
             <h3>Básico</h3>
-            <p className="preco">R$ 599,90<span>/mês</span></p>
+            <p className="preco">R$ 89<span>/mês</span></p>
             <ul>
               <li>Acesso à musculação</li>
               <li>Horário livre</li>
@@ -42,7 +42,7 @@ const Home = () => {
           </div>
           <div className="plano-card destaque">
             <h3>Premium</h3>
-            <p className="preco">R$ 999,90<span>/mês</span></p>
+            <p className="preco">R$ 149<span>/mês</span></p>
             <ul>
               <li>Musculação + aulas coletivas</li>
               <li>Acompanhamento mensal</li>
@@ -52,7 +52,7 @@ const Home = () => {
           </div>
           <div className="plano-card">
             <h3>Black</h3>
-            <p className="preco">R$ 1599,90<span>/mês</span></p>
+            <p className="preco">R$ 249<span>/mês</span></p>
             <ul>
               <li>Acesso total + personal</li>
               <li>Nutricionista incluso</li>
